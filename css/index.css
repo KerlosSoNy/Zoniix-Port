@@ -1,0 +1,457 @@
+/* Start Main Rules */
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --second-color: coral;
+    --third-color: rgb(167, 167, 167);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width:767px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 950px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+
+/* End Main Rules */
+
+nav {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+}
+
+nav .container {
+    background-color: white;
+    min-height: 65px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: visible !important;
+}
+
+nav ul {
+    position: relative;
+    width: calc(100% / 3);
+}
+
+nav .ul2 {
+    position: relative;
+    text-align: end;
+}
+
+nav li {
+    padding: 0px 5%;
+}
+
+nav li a {
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+}
+
+nav i {
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: var(--second-color);
+    border-bottom: 1px solid var(--second-color);
+    padding-bottom: 10px;
+    transition-duration: 1s;
+}
+
+
+/* End OF Nav Till Now */
+
+
+/* Main Section */
+
+.main .container {
+    padding-top: 100px;
+    margin-bottom: 100px;
+    height: 100vh;
+}
+
+.main .container img {
+    width: 100%;
+    height: 100%;
+}
+
+.image_first_div {
+    overflow: hidden;
+}
+
+.main .container img:hover {
+    transition-duration: 2.5s;
+    transform: scale(1.3);
+}
+
+.p_first_div {
+    width: 40%;
+    padding-top: 60px;
+}
+
+.p_first_div h2 {
+    font-weight: 500;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.p_first_div p {
+    font-weight: 300;
+    font-size: 50px;
+    color: var(--third-color);
+    margin-bottom: 50px;
+}
+
+.p_first_div a {
+    margin-top: 10%;
+    padding: 18px 25px;
+    color: var(--second-color);
+    border: 1px solid var(--second-color);
+}
+
+.p_first_div a:hover {
+    background-color: var(--second-color);
+    color: white;
+    transition-duration: 0.5s;
+}
+
+
+/* New Space */
+
+.second_div {
+    margin-bottom: 100px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image_second_div {
+    width: 50%;
+}
+
+.second_div img {
+    margin-left: 3%;
+    width: 90%;
+    height: 100%;
+}
+
+.p_second_div {
+    width: 40%;
+    padding-top: 4%;
+}
+
+.p_second_div h2 {
+    color: var(--second-color);
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.p_second_div h4 {
+    color: var(--third-color);
+    margin: 2% 0px 2% 0px;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.p_second_div p {
+    color: black;
+    margin: 5% 0px 10% 0px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.p_second_div a {
+    margin-top: 20%;
+    padding: 18px 25px;
+    color: var(--second-color);
+    border: 1px solid var(--second-color);
+}
+
+.p_second_div a:hover {
+    background-color: var(--second-color);
+    color: white;
+    transition-duration: 0.5s;
+}
+
+
+/* New Space */
+
+.theird_div {
+    margin-bottom: 100px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image_theird_div {
+    width: 50%;
+}
+
+.theird_div img {
+    margin-left: 8%;
+    width: 90%;
+    height: 100%;
+}
+
+.p_theird_div {
+    width: 40%;
+    padding-top: 4%;
+    padding-left: 1%;
+}
+
+.p_theird_div h2 {
+    color: var(--second-color);
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.theird_div h4 {
+    color: var(--third-color);
+    margin: 2% 0px 2% 0px;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.p_theird_div p {
+    color: black;
+    margin: 5% 0px 10% 0px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.p_theird_div a {
+    margin-top: 20%;
+    padding: 18px 25px;
+    color: var(--second-color);
+    border: 1px solid var(--second-color);
+}
+
+.p_theird_div a:hover {
+    background-color: var(--second-color);
+    color: white;
+    transition-duration: 0.5s;
+}
+
+
+/* New Space */
+
+.work_div {
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.h_work_div {
+    align-items: flex-start!important;
+    /* padding-top: 5%; */
+    padding-left: 5%;
+    width: 40%;
+}
+
+.h_work_div h2 {
+    font-weight: 300;
+    font-size: 44px;
+}
+
+.p_work_div {
+    width: 45%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* padding-top: 4%; */
+    row-gap: 2%;
+}
+
+.ex_work {
+    margin: 3%;
+    padding: 1%;
+    width: 90%;
+}
+
+.ex_work h4 {
+    margin: 2%;
+    margin-bottom: 5%;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.ex_work span {
+    margin: 3%;
+    margin-bottom: 4%;
+    font-weight: 500;
+}
+
+.ex_work p {
+    margin: 3%;
+    margin-top: 5%;
+    word-wrap: inherit;
+}
+
+
+/*  */
+
+
+/* What I Do section */
+
+.do_div {
+    margin-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.do_div h2 {
+    font-weight: 500;
+    font-size: 44px;
+    padding-top: 3%;
+    margin-bottom: 3%;
+}
+
+.intro_do_div {
+    display: flex;
+    column-gap: 3%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.example {
+    width: 50%;
+    overflow: hidden;
+    margin-bottom: 3%;
+}
+
+.example h3 {
+    font-weight: 500;
+    font-size: 34px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.example p {
+    font-weight: 100;
+    font-size: 18px;
+    padding: 0% 3%;
+    line-height: 150%;
+}
+
+.do_div a {
+    font-size: 18px;
+    padding: 16px 25px;
+    color: var(--second-color);
+    border: 1px solid var(--second-color);
+}
+
+.do_div a:hover {
+    background-color: var(--second-color);
+    color: white;
+    transition-duration: 0.5s;
+}
+
+
+/*   */
+
+
+/* New Space */
+
+.get_in {
+    background-color: rgb(150, 150, 150);
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.get_in h1 {
+    color: white;
+    font-size: 55px;
+}
+
+.get_in a {
+    font-size: 18px;
+    padding: 16px 25px;
+    color: white;
+    border: 1px solid white;
+}
+
+.get_in a:hover {
+    background-color: var(--second-color);
+    border-color: var(--second-color);
+    color: white;
+    transition-duration: 0.5s;
+}
+
+
+/*  */
+
+
+/* copy rights */
+
+.copy_right {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 0.5%;
+    text-align: center;
+}
