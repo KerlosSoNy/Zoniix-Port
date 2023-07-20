@@ -185,7 +185,6 @@ nav a:hover {
 }
 
 .second_div img {
-    margin-left: 3%;
     width: 90%;
     height: 100%;
 }
@@ -232,7 +231,6 @@ nav a:hover {
 /* New Space */
 
 .theird_div {
-    margin-bottom: 100px;
     height: 60vh;
     display: flex;
     flex-direction: row;
@@ -244,7 +242,6 @@ nav a:hover {
 }
 
 .theird_div img {
-    margin-left: 8%;
     width: 90%;
     height: 100%;
 }
